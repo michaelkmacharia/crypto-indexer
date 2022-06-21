@@ -1,0 +1,32 @@
+{
+  "name": "crypto-indexer",
+  "version": "1.0.0",
+  "description": "A NodeJS-based CLI for indexing cryptocurrency data.",
+  "main": "index.js",
+  "bin": "./bin/crypto-indexer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/universal-projects/crypto-indexer.git"
+  },
+  "keywords": [
+    "crypto",
+    "indexer",
+    "crypto-indexer"
+  ],
+  "author": "Michael K Macharia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/universal-projects/crypto-indexer/issues"
+  },
+  "homepage": "https://github.com/universal-projects/crypto-indexer#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "colors": "^1.4.0",
+    "commander": "^9.1.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^8.2.2"
+  }
+}
